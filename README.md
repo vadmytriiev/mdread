@@ -2,4 +2,4 @@
 
 
 
-Bootstraped from `create-next-app`
+npm run dev
