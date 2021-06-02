@@ -1,0 +1,36 @@
+  
+.container {
+    position: relative;
+    min-width: 600px;
+  }
+  
+  .search {
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 18px;
+    width: 100%;
+  }
+  
+  .results {
+    list-style: none;
+    overflow: hidden;
+    margin: 9px 0 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+  
+  .result {
+    background: #adadad;
+    color: #eee;
+    margin: 0 0 9px;
+    padding: 18px;
+  }
+  
+  .result a {
+    color: #eee;
+  }
